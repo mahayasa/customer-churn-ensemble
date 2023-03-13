@@ -1,0 +1,27 @@
+metadata_version: 1
+name: Application of machine learning for predicting ultimate joint shear capacity and failure modes of beam-column joints (Python Implementation)
+description: This capsule contains code for the paper "Structural health monitoring of exterior beam-column subassemblies through detailed numerical modelling and using various machine learning techniques". Structural health monitoring of beam-column joints is paramount, as they are critical load-carrying components of reinforced concrete buildings. Evaluating the ultimate joint shear capacity and failure modes of beam-columns, especially in seismic events, is a crucial task, especially in view of life safety concerns. A few machine learning and deep learning algorithms were selected for predicting the joint shear capacity and mode of failure of beam-column joints are shared in this capsule. The models except for ANN, PSO-ANN, and XGBoost were constructed using the widely used python library (Pedregosa et al. 2011) scikit learn 0.23.1. The library is also equipped with a class (GridSearchCV) to optimize the hyperparameters for various models through brute force which builds several models based on the range of values provided for various parameters.
+tags:
+- Beam-column joint
+- Machine learning
+- Civil Engineering
+- Reinforced concrete structures
+- Artificial intelligence
+- ANN
+- Structural Health Monitoring
+authors:
+- name: Giuseppe Santarsiero
+  affiliations:
+  - name: Università degli Studi della Basilicata, Potenza
+- name: Mayank Mishra
+  affiliations:
+  - name: IIT Bhubaneswar
+- name: Manav Kumar Singh
+  affiliations:
+  - name: IIT Bhubaneswar
+- name: Angelo Masi
+  affiliations:
+  - name: Università degli Studi della Basilicata
+corresponding_contributor:
+  name: Mayank Mishra
+  email: mayank@iitbbs.ac.in

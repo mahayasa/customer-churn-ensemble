@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -ex
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+python -u Regression/random_forest_reg.py "$@"
+python -u Regression/dec_tree_reg.py "$@"
+python -u Regression/knn_reg.py "$@"
+python -u Regression/Linear_Reg.py "$@"
+python -u Regression/SVM_reg.py "$@"
+python -u Regression/XGBOOST_reg.py "$@"
+python -u Regression/ANN_reg.py "$@"
+python -u Regression/PSO_reg.py "$@"
+python -u Classification/knn_class.py "$@"
+python -u Classification/logistic_class.py "$@"
+python -u Classification/naive_bayes_class.py "$@"
+python -u Classification/pca_class.py "$@"
+python -u Classification/random_forest_class.py "$@"
+python -u Classification/svm_class.py "$@"
+python -u Classification/XGBoost_class.py "$@"
+python -u Classification/ANN_class.py "$@"
+python -u Classification/PSO_test_class.py "$@"
+
