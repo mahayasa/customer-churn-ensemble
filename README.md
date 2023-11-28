@@ -8,9 +8,9 @@ Two differents dataset preprocessed by filling missing value and SMOTE. After th
 ## The Result
 - Telecom dataset : F1-Score (0.850)
 - Insurance dataset : F1-Score (0.947)
-- 
+
 ## Publication
-This works was presented on International Joint Conference on Computer Science and Software Engineering (JCSSE) 2022 in Phitsanulok, Thailand
+This works was presented on International Joint Conference on Computer Science and Software Engineering (JCSSE) 2022 in Phitsanulok, Thailand<br>
 Read the full publication here : https://ieeexplore.ieee.org/abstract/document/10202105
   
 ## Acknowledgments
